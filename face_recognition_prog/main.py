@@ -1,7 +1,7 @@
 import cv2
 
 cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-img = cv2.imread('images/Image_3.jpg')
+img = cv2.imread('Your_image')
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
